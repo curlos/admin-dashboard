@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+img[src$=".svg"] {
+  height: 25px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.leftContainer {
+  background-color: #1A91D4;
+  color: #ffffff;
+  height: 100vh;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.navTop {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.searchContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.searchContainer input {
+  border-radius: 30px;
+  background-color: rgb(233, 233, 233);
+  border: none;
+  padding: 10px;
+  flex: 1;
+}
+
+.topUser {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.userImage {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.topUser div {
+  font-weight: bold;
+}
+
+.navBottom {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.navBottom .left {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  align-items: center;
+}
+
+.navBottom .right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 15px;
+}
+
+.navBottom .right button {
+  background-color: #1A91D4;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
